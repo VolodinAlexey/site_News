@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Quick news - новости с тобой</title>
+    <meta
+      name="description"
+      content="Lambda is a beautiful Bootstrap 4 template for multipurpose landing pages."
+    />
+
+    <!--Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+
+    <!--vendors styles-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color" />
+  </head>
+  <body data-spy="scroll" data-target="#lambda-navbar" data-offset="0">
+    <!--navigation-->
+    <nav
+      class="navbar navbar-expand-md navbar-dark navbar-transparent fixed-top sticky-navigation"
+      id="lambda-navbar"
+    >
+      <a class="navbar-brand" href="index.html"> Quick news </a>
+      <button
+        class="navbar-toggler navbar-toggler-right border-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span data-feather="menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#services">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#features">Возможности</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#reviews">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#pricing">Цены</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#faq">FAQ</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <a
+            href="#signup"
+            class="btn btn-outline-secondary btn-navbar page-scroll"
+            >Войти</a
+          >
+        </form>
+      </div>
+    </nav>
+
+    <!--hero header-->
+    <section
+      class="py-7 py-md-0 bg-hero"
+      id="home"
+      style="
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.1)
+          ),
+          url(img/parallex.jpg);
+      "
+    >
+      <div class="container">
+        <div class="row vh-md-100">
+          <div class="col-md-7 my-md-auto text-center text-md-left">
+            <h1 class="display-3 text-white font-weight-bold">
+              Будь в курсе свежих новостей
+            </h1>
+            <p class="lead text-light my-4">
+              Здесь тебя ждут самые актуальные факты со всей планеты.
+            </p>
+            <a href="#signup" class="btn btn-primary page-scroll">Интересно</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="py-7 bg-light" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-9 mx-auto text-center">
+            <span class="text-muted text-uppercase">привет читатель</span>
+            <h2 class="display-4">Начать ознакомление можно уже сейчас</h2>
+            <p class="lead">
+              Тебе будет интересно узнать о наших возможностях.
+            </p>
+          </div>
+        </div>
+        <div class="row p-4 mt-5 bg-white raised-box rounded">
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="edit-3" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Публикации</h4>
+            <p class="text-muted">
+              Публикую свои статьи. Почувствуй себя корреспондентом.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="thumbs-up" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Отзывы</h4>
+            <p>Оставь впечатление о прочитанных статьях.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="users" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Знакомства</h4>
+            <p>Познавай мир через таких же как и ты, интересных людей.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="globe" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Вселенная</h4>
+            <p>Здесь можно узнать новости со всей планеты.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="heart" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Поддержка</h4>
+            <p>Если у тебя возникнут сложности, мы готовы будем тебе помочь.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-5 text-center">
+            <div class="icon-box">
+              <div class="icon-box-inner small-xs text-primary">
+                <span data-feather="rotate-ccw" width="30" height="30"></span>
+              </div>
+            </div>
+            <h4 class="mt-2">Возврат средств</h4>
+            <p>
+              В случае если что-то пойдет не так всегда можно будет вернуть
+              средства.
+            </p>
+          </div>
+        </div>
+        <div class="row press mt-5">
+          <div
+            class="col-12 text-muted small-xl text-uppercase text-center mb-5"
+          >
+            Нашими партнерами являются
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-1.png" alt=""
+            /></a>
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-2.png" alt=""
+            /></a>
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-3.png" alt=""
+            /></a>
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-4.png" alt=""
+            /></a>
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-5.png" alt=""
+            /></a>
+          </div>
+          <div class="press-item col-lg-2 col-md-4 col-6">
+            <a href="#"
+              ><img class="img-fluid" src="img/press/press-6.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--features section-->
+    <section class="py-7" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-auto">
+            <img
+              src="img/feature1.png"
+              class="img-fluid d-block mx-auto"
+              alt="Feature 1"
+            />
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-left pt-5 pt-md-0">
+            <h2 class="display-4">Мы с тобой везде</h2>
+            <p class="lead text-muted">
+              Наши новости можно читать на разных платформах.
+            </p>
+            <ul class="features-list">
+              <li>Android.</li>
+              <li>IOS Apple.</li>
+              <li>Windows.</li>
+              <li>MacOS.</li>
+            </ul>
+            <p class="lead mt-3">
+              <a
+                href="#"
+                class="btn btn-primary btn-sm d-inline-flex flex-row align-items-center"
+              >
+                Подробнее
+                <span
+                  class="ml-1"
+                  width="18"
+                  height="18"
+                  data-feather="chevron-right"
+                ></span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row mt-7">
+          <div class="col-md-6 my-auto order-1 order-md-2">
+            <img
+              src="img/feature2.png"
+              class="img-fluid d-block mx-auto"
+              alt="Feature 2"
+            />
+          </div>
+          <div
+            class="col-md-6 my-auto text-center text-md-left pt-5 pt-md-0 order-2 order-md-1"
+          >
+            <h2 class="display-4">Обширная поддержка</h2>
+            <p class="lead text-muted">
+              Нас знают по всему миру, потому что с нами удобно.
+            </p>
+            <ul class="features-list">
+              <li>Загружай разные форматы doc, txt, pdf, jpeg и др.</li>
+              <li>Встроенный декодер видео и аудио.</li>
+              <li>Быстрая публикация и онлайн трансляция.</li>
+              <li>Постоянно развиваемся.</li>
+            </ul>
+            <p class="lead mt-3">
+              <a
+                href="#"
+                class="btn btn-primary btn-primary d-inline-flex flex-row align-items-center"
+              >
+                Подробнее
+                <span
+                  class="ml-1"
+                  width="18"
+                  height="18"
+                  data-feather="chevron-right"
+                ></span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row mt-7">
+          <div class="col-md-6 my-auto">
+            <img
+              src="img/feature3.png"
+              class="img-fluid d-block mx-auto"
+              alt="Feature 3"
+            />
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-left pt-5 pt-md-0">
+            <h2 class="display-4">Пиши публикации в соцсетях</h2>
+            <p class="lead text-muted">
+              Добавляй публикации из соцсетей в твоём телефоне.
+            </p>
+            <ul class="features-list">
+              <li>Facebook.</li>
+              <li>ВКонтакте.</li>
+              <li>Telegram.</li>
+              <li>Twitter.</li>
+            </ul>
+            <p class="lead mt-3">
+              <a
+                href="#"
+                class="btn btn-primary btn-primary d-inline-flex flex-row align-items-center"
+              >
+                Подробнее
+                <span
+                  class="ml-1"
+                  width="18"
+                  height="18"
+                  data-feather="chevron-right"
+                ></span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section -->
+    <section class="py-7 bg-light" id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-8 mx-auto text-center">
+            <span class="text-muted small-xl text-uppercase"
+              >Наши пользователи</span
+            >
+            <h2 class="display-4">Что пишут о нас</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8 mx-auto review-wrapper slick-reviews">
+            <div class="card border-0 review p-5 raised-box">
+              <div class="card-body">
+                <img
+                  src="img/client-1.jpg"
+                  class="img-review rounded-circle d-block mx-auto"
+                  alt="Client 1"
+                />
+                <p class="quote">
+                  Доволен платформой и новостями. Нашел своих друзей.
+                </p>
+                <div class="mt-4 small-xl">
+                  Андрей Смирнов &mdash;
+                  <span class="text-muted">Москва</span>
+                </div>
+                <div class="rating-stars text-primary mt-4">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-half-empty"></span>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 review p-5 raised-box">
+              <div class="card-body">
+                <img
+                  src="img/client-2.jpg"
+                  class="img-review rounded-circle d-block mx-auto"
+                  alt="Client 2"
+                />
+                <p class="quote">
+                  Удобный сервис и всегда под рукой, на фудкорте, на улице,
+                  дома.
+                </p>
+                <div class="mt-4 small-xl">
+                  Сергей Климов &mdash;
+                  <span class="text-muted">Воронеж</span>
+                </div>
+                <div class="rating-stars text-primary mt-4">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 review p-5 raised-box">
+              <div class="card-body">
+                <img
+                  src="img/client-3.jpg"
+                  class="img-review rounded-circle d-block mx-auto"
+                  alt="Client 3"
+                />
+                <p class="quote">
+                  Только здесь узнала что моя знакомая переехала в Норвегию. И
+                  прислала свои фотографии, хочу туда.
+                </p>
+                <div class="mt-4 small-xl">
+                  Марьяна Веселова &mdash;
+                  <span class="text-muted">С.Петербург</span>
+                </div>
+                <div class="rating-stars text-primary mt-4">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-half-empty"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--pricing section-->
+    <section class="py-7" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <span class="text-muted text-uppercase">Наши цены</span>
+            <h2 class="display-4">Платите только когда Вам нужно</h2>
+            <p class="lead">Сделай свой выбор и будь в курсе.</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-11 mx-auto">
+            <div class="card-group pricing-table">
+              <div class="card text-center bg-light">
+                <div class="card-body">
+                  <h4 class="card-title pt-3">Базовый</h4>
+                  <h2 class="card-title text-primary pt-4">140руб</h2>
+                  <div class="text-muted mt-4">в месяц</div>
+                  <ul class="list-unstyled pricing-list">
+                    <li>80 публикаций</li>
+                    <li>10Гб медиа пространства</li>
+                    <li>Круглосуточная поддержка</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary"> Выбрать </a>
+                </div>
+              </div>
+              <div class="card bg-primary text-white text-center">
+                <div class="card-body">
+                  <h4 class="card-title text-white pt-3">Стандарт</h4>
+                  <h2 class="card-title text-white pt-4">330руб</h2>
+                  <div class="text-light mt-4">в месяц</div>
+                  <ul class="list-unstyled pricing-list">
+                    <li>500 публикаций</li>
+                    <li>50Гб медиа пространства</li>
+                    <li>LanguageTool лайт</li>
+                  </ul>
+                  <a href="#" class="btn btn-secondary"> Выбрать </a>
+                </div>
+              </div>
+              <div class="card text-center bg-light">
+                <div class="card-body">
+                  <h4 class="card-title pt-3">Привилегия</h4>
+                  <h2 class="card-title text-primary pt-4">$420</h2>
+                  <div class="text-muted mt-4">в месяц</div>
+                  <ul class="list-unstyled pricing-list">
+                    <li>1000 публикаций</li>
+                    <li>100Гб медиа пространства</li>
+                    <li>Круглосуточная поддержка</li>
+                    <li>Бонусы привилегия</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary"> Выбрать </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <div class="icon-box border-box">
+                  <div class="icon-box-inner p-2 text-primary">
+                    <span data-feather="umbrella"></span>
+                  </div>
+                </div>
+                <h6 class="mb-2">Возврат средств</h6>
+                <p class="text-muted small-xl">
+                  В случае если что-то пойдет не так всегда можно будет вернуть
+                  средства.
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <div class="icon-box border-box">
+                  <div class="icon-box-inner p-2 text-primary">
+                    <span data-feather="shield"></span>
+                  </div>
+                </div>
+                <h6 class="mb-2">Служба безопасности</h6>
+                <p class="text-muted small-xl">
+                  Платежи по протоколу 256-бит SSL.
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <div class="icon-box border-box">
+                  <div class="icon-box-inner p-2 text-primary">
+                    <span data-feather="credit-card"></span>
+                  </div>
+                </div>
+                <h6 class="mb-2">Из любой точки</h6>
+                <p class="text-muted small-xl">
+                  Принимаем платежи разных платежных систем — кредитные карты,
+                  перевод от PayPal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq section -->
+    <section class="py-7 bg-light" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <span class="text-muted text-uppercase">поддержка</span>
+            <h2 class="display-4">Ответы на частые вопросы</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
+            <div class="row mt-4">
+              <div class="col-md-6 mb-4">
+                <h5>Сервис поддерживает Linux?</h5>
+                <p class="text-muted">
+                  Мы везде где есть интернет. Если интернета нет, то можно
+                  сделать публикацию offline и позже опубликовать.
+                </p>
+              </div>
+              <div class="col-md-6 mb-4">
+                <h5>Сколько действует регистрация?</h5>
+                <p class="text-muted">
+                  Срок действия регистрации не ограничен. Ограничено только
+                  действие подключенного пакета услуг.
+                </p>
+              </div>
+              <div class="col-md-6 mb-4">
+                <h5>Можно прервать действие платной подписки?</h5>
+                <p class="text-muted">
+                  Да, можно. Средства будут возвращены в полном объёме.
+                </p>
+              </div>
+              <div class="col-md-6 mb-4">
+                <h5>Служба поддержка работает online?</h5>
+                <p class="text-muted">
+                  Наша служба поддержки работает круглосуточно. Полный
+                  функционал доступен только обладателям пакета Привилегия
+                </p>
+              </div>
+            </div>
+            <div class="row text-center my-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <div class="font-weight-bold lead">Остались вопросы?</div>
+                <p class="text-muted">Будем рады ответить на Ваши вопросы.</p>
+                <a href="#" class="btn btn-primary btn-sm"> Написать </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--hero header-->
+    <section
+      class="py-5 py-md-6 bg-hero inverse"
+      id="signup"
+      style="background-image: url(img/parallex.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 my-md-auto text-center text-md-left pb-5 pb-md-0"
+          >
+            <h1 class="display-3 text-white">Будь с нами везде</h1>
+            <p class="lead text-light">Пройдите простую регистрацию.</p>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="card">
+              <div class="card-body p-4">
+                <form class="signup-form">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Фамилия"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Имя" />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      placeholder="Примечание"
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option value="">Подписка</option>
+                      <option value="basic">Базовый</option>
+                      <option value="startup">Стандарт</option>
+                      <option value="growth">Привилегия</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-primary btn-block">
+                      Создать аккаунт
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer / contact-->
+    <footer class="py-6 bg-black" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h5 class="text-white">QUICK NEWS</h5>
+            <p class="about">
+              Будь в курсе свежих новостей Здесь тебя ждут самые актуальные
+              факты со всей планеты.
+            </p>
+            <ul class="list-inline social social-rounded social-sm">
+              <li class="list-inline-item">
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href=""><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href=""><i class="fa fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6 ml-auto">
+            <h5 class="text-white">Quick news</h5>
+            <ul class="list-unstyled mt-4">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Безопасность</a></li>
+              <li><a href="#">Темы</a></li>
+              <li><a href="#">Блог</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <h5 class="text-white">Наши продукты</h5>
+            <ul class="list-unstyled mt-4">
+              <li><a href="#">Quick news</a></li>
+              <li><a href="#">Quick business</a></li>
+              <li><a href="#">Quick state</a></li>
+              <li><a href="#">Quick Voronezh</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <h5 class="text-white">Контакты</h5>
+            <ul class="list-unstyled mt-4">
+              <li><a href="#">Форма поддержки</a></li>
+              <li><a href="#">В интернете</a></li>
+              <li><a href="#">Позвонить</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 text-muted text-center small-xl">
+            <p>&copy; 2022 Quick news. Все права защищены.</p>
+            Free Bootstrap 4.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--scroll to top-->
+    <div class="scroll-top">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+
+    <!-- theme switcher (FOR DEMO ONLY - REMOVE FROM PRODUCTION)-->
+    <div class="switcher-wrap">
+      <div class="switcher-trigger">
+        <span class="fa fa-gear"></span>
+      </div>
+      <div class="color-switcher">
+        <h6>Цвет оформления</h6>
+        <ul class="mt-3 clearfix">
+          <li
+            class="bg-green active"
+            data-color="default"
+            title="Default Green"
+          ></li>
+          <li class="bg-purple" data-color="purple" title="Purple"></li>
+          <li class="bg-blue" data-color="blue" title="Blue"></li>
+          <li class="bg-red" data-color="red" title="Red"></li>
+          <li class="bg-orange" data-color="orange" title="Orange"></li>
+          <li class="bg-indigo" data-color="indigo" title="Indigo"></li>
+          <li class="bg-black" data-color="black" title="Black"></li>
+          <li class="bg-teal" data-color="teal" title="Teal"></li>
+          <li class="bg-cyan" data-color="cyan" title="Cyan"></li>
+          <li class="bg-pink" data-color="pink" title="Pink"></li>
+        </ul>
+        <p>больше выбор <b>цветов</b> на нашей платформе.</p>
+      </div>
+      <div class="mt-4">
+        <a
+          href="https://wireddots.com/themes/lambda?utm_source=lambda-demos"
+          class="btn btn-primary btn-block"
+          >Загрузить</a
+        >
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.0/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
